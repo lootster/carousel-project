@@ -6,20 +6,13 @@ import { getImages } from "./imageData";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state ={
+    this.state = {
       image: getImages()
-    }
+    };
   }
 
-
   render() {
-    return (
-      
-        <Carousel images={this.state.image} />
-
-       
-      
-    );
+    return <Carousel images={this.state.image} />;
   }
 }
 

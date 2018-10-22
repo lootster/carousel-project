@@ -1,7 +1,11 @@
+.container-fluid {
+  background-color: rgb(10, 10, 10);
+}
+
 .carousel-inner {
-    max-width: 90%;
-    height: auto;
-    margin: auto;
-    font-family: 'Lobster', cursive;
-    text-shadow: 2px 2px 4px #000000;
+  max-width: 90%;
+  height: auto;
+  margin: auto;
+  font-family: "Lobster", cursive;
+  text-shadow: 2px 2px 4px #000000;
 }

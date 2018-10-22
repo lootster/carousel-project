@@ -38,10 +38,9 @@ const Carousel = props => {
               src={require("./image/default.jpg")}
               alt="First slide"
             />
-
             <div class="carousel-caption d-none d-md-block">
               <h1>Welcome to my carousel demo</h1>
-              <p>...</p>
+              <p>Use Left or Right arrow to navigate slides</p>
             </div>
           </div>
 
